@@ -47,7 +47,7 @@ print("♦♦♦\033[1;91m==========☠️MAIN MENU☠️=============♦♦♦"
 print("\033[1;93m [1] FOLLOW MY GITHUB ACCOUNT😎   ");time.sleep(3)
 print("\033[1;94m [2] MY FACEBOOK I'D ☠️ ");time.sleep(1)
 print("\033[1;96m [3] EXIT😈 ");time.sleep(1)
-print("\033[1;96m [*type any number*] BASIC TERMUX INSTALLATION ");time.sleep(1)
+print("\033[1;96m [4] BASIC TERMUX INSTALLATION ");time.sleep(1)
 print("♦♦♦=======DARK-WOLF======♦♦♦")
 print("")
 rabin = input (" \033[1;92mCHOOSE:: ")
@@ -60,7 +60,7 @@ elif rabin in["2","02"]:
 	
 if rabin in ["3","03"]:
             exit()
-if rabin in ["*","**"]:
+if rabin in ["4","04"]:
 	     print("\033[1;96m                 ♦️INSTALLATION IS STARTED ♦️ ")
 os.system("clear")
 print("")
